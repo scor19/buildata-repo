@@ -7,9 +7,9 @@ function Header(props) {
     <>
       <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <Link to="main" class="flex items-center">
+          <Link to="/home" class="flex items-center">
             <span class="h-14 bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent text-5xl font-semibold whitespace-nowrap font-black">
-              Buildata
+              BuilData
             </span>
           </Link>
           <button
@@ -38,7 +38,7 @@ function Header(props) {
             <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <Link
-                  to="main"
+                  to="/home"
                   class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                   aria-current="page"
                 >
@@ -47,7 +47,7 @@ function Header(props) {
               </li>
               <li>
                 <Link
-                  to="inmobiliario"
+                  to="/inmobiliario"
                   class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Mercado Inmobiliario
@@ -55,7 +55,7 @@ function Header(props) {
               </li>
               <li>
                 <Link
-                  to="construccion"
+                  to="/construccion"
                   class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Construcción

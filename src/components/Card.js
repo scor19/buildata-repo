@@ -1,19 +1,16 @@
 import React from "react";
-import logo from "../logo.svg";
 
-function Inmobiliario() {
+function Card(props) {
   return (
     <>
-      <h1>Inmobiliariowdsadsa</h1>
-
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg m-6">
         <img
           class="w-full"
-          src="logo"
+          src="https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8MTYlM0E5fGVufDB8fDB8fHww&w=1000&q=80"
           alt="Sunset in the mountains"
         />
         <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <div class="font-bold text-xl mb-2">Noticia Actual</div>
           <p class="text-gray-700 text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Voluptatibus quia, nulla! Maiores et perferendis eaque,
@@ -32,9 +29,8 @@ function Inmobiliario() {
           </span>
         </div>
       </div>
-
     </>
   );
 }
 
-export default Inmobiliario;
+export default Card;
